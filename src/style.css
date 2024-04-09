@@ -1,0 +1,31 @@
+.kriss-ecmd {
+  position: absolute;
+  padding-top: 24px;
+  width: 100%;
+  z-index: 1;
+}
+
+.kriss-ecmd.focused {
+  z-index: 6;
+}
+
+.kriss-ecmd > nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 24px;
+}
+
+.kriss-ecmd > textarea {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+
+.kriss-ecmd > textarea.visible {
+  display: block;
+}
